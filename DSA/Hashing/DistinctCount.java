@@ -10,11 +10,11 @@ public class DistinctCount {
                     flag = true;
                     break;
                 }
-                if (flag == false) {
-                    count++;
-                }
             }
 
+            if (flag == false) {
+                count++;
+            }
         }
 
         return count;
